@@ -149,4 +149,9 @@ label {
   cursor: pointer;
 }
 
+#enviar:hover{
+  background-color: black;
+  color: white;
+}
+
 
