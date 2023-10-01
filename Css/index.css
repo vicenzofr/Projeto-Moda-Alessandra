@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/wolfsburg-castle');
 
-
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"); */
 *{
     margin: 0;
     padding: 0;
@@ -64,4 +64,28 @@
     text-align: center;
 }
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    position: fixed; /* Alterado de absolute para fixed */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+  }
+
+#instagram{
+    font-size: 19px ;
+    float: right;
+    color: #ffffff;
+}
+
+.copyright,
+.email-team{
+    font-size: 13px;
+    float: left;
+
+}
 
