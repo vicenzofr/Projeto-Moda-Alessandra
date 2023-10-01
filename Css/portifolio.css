@@ -41,27 +41,6 @@ header{
     font-family: 'Wolfsburg Castle', sans-serif;
 }
 
-.imagem1{
-    background-color: red;
-    height: 470px;
-    width: 100%;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
-}
-
-#center-name{
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-
-#center-name-secund{
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-
-
 footer {
     text-align: center;
     padding: 20px;
