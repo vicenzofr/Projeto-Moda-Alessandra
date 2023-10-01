@@ -7,15 +7,12 @@
     box-sizing: border-box;
     font-family: 'Creatinin', sans-serif;
 }
-
-
-
   body {
     background: #ffffff;
     padding-top: 80px; 
 }
 
-.navegador{
+header{
     position: fixed;
     top: 0;
     left: 0;
@@ -44,24 +41,33 @@
     font-family: 'Wolfsburg Castle', sans-serif;
 }
 
-.imagem1{
-    background-color: red;
-    height: 470px;
-    width: 100%;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
+.img-home {
+  
+ 
 }
 
-#center-name{
-    color: rgb(0, 0, 0);
+footer {
     text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    position: fixed; /* Alterado de absolute para fixed */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+  }
+
+#instagram{
+    font-size: 19px ;
+    float: right;
+    color: #ffffff;
 }
 
-#center-name-secund{
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
+.copyright,
+.email-team{
+    font-size: 13px;
+    float: left;
 
+}
 
