@@ -41,9 +41,10 @@ header{
     font-family: 'Wolfsburg Castle', sans-serif;
 }
 
-.img-home {
-  
- 
+.img1 {
+  width: 220.727px;
+  height: 419px;
+  flex-shrink: 0;
 }
 
 footer {
