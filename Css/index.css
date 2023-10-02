@@ -1,21 +1,20 @@
 @import url('https://fonts.cdnfonts.com/css/wolfsburg-castle');
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Creatinin', sans-serif;
+    
 }
   body {
     background: #ffffff;
-    padding-top: 80px; 
+    /* padding-top: 80px;  */
+    font-family: 'Creatinin', sans-serif;
 }
 
 header{
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     padding: 45px 10%;
     background:  #ffffff;
@@ -49,33 +48,28 @@ header{
     flex-direction: column; 
     justify-content: center; 
     align-items: center;
+    margin-bottom: 300px;/* apenas para testar o footer*/
 }
 
-#center-name{
+.center-name{
     color: rgb(0, 0, 0);
     text-align: center;
 }
 
-#center-name-secund{
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
+
 
 
 footer {
-    text-align: center;
-    padding: 20px;
+
+    /* text-align: center; */
+    display: block;
+    padding: 40px 4%;
     background-color: #000000;
-    color: #fff;
-    position: absolute;
-    left: 0;
-    right: 0;
-    position: fixed; /* Alterado de absolute para fixed */
-    bottom: 0; /* Posiciona o rodapé na parte inferior */
+    color: #ffffff ;
   }
 
 #instagram{
-    font-size: 19px ;
+    font-size: 30px ;
     float: right;
     color: #ffffff;
 }
@@ -106,8 +100,8 @@ footer {
   background-color: white;
   margin-top: 80px;
   margin-left: 1000px ;
-  position: absolute;
-  z-index: 2; /*serve para criar uma ordem*/
+  position: relative;
+  
 }
 .quadrado2{
   height: 355px;
@@ -116,8 +110,8 @@ footer {
   background-color: transparent;
   margin-top: 87px;
   margin-left: 1010px ;
-  position: absolute;
-  z-index: 1;
+  position: relative;
+  
 }
 .form-row {
   display: flex;
@@ -243,8 +237,7 @@ h1{
   width: 500px;
   max-width: 100%;
   margin-left: 800px;
-  position: absolute; /*sobrepor um obj*/
-  top:140px;
+  position: relative; /*sobrepor um obj*/
 }
 
 #imagem2{
@@ -252,8 +245,7 @@ h1{
   width: 500px;
   max-width: 100%;
   margin-left: 800px;
-  position: absolute; /*sobrepor um obj*/
-  top:500px;
+  position: relative; /*sobrepor um obj*/
 }
 
 
