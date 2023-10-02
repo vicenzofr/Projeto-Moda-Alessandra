@@ -1,4 +1,4 @@
-/* @import url('https://fonts.cdnfonts.com/css/wolfsburg-castle');
+@import url('https://fonts.cdnfonts.com/css/wolfsburg-castle');
 
 
 *{
@@ -7,54 +7,32 @@
     box-sizing: border-box;
     font-family: 'Creatinin', sans-serif;
 }
-<<<<<<< HEAD
-
-
-body {
-=======
   body {
->>>>>>> vicenzo
     background: #ffffff;
     padding-top: 80px; 
 }
 
-<<<<<<< HEAD
-.navegador{
-=======
 header{
->>>>>>> vicenzo
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 45px 10%;
-<<<<<<< HEAD
-    background:  #c4c4c4;
-=======
     background:  #a1a0a0;
->>>>>>> vicenzo
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
   }
 
-<<<<<<< HEAD
-.logo{
-=======
   .logo{
->>>>>>> vicenzo
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: 'Wolfsburg Castle', sans-serif;
                                                 
   }
 
-<<<<<<< HEAD
-.navbar a{
-=======
   .navbar a{
->>>>>>> vicenzo
     font-size: 16px;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -62,8 +40,6 @@ header{
     margin-left: 25px;
     font-family: 'Wolfsburg Castle', sans-serif;
 }
-<<<<<<< HEAD
-=======
 
 footer {
     text-align: center;
@@ -75,7 +51,7 @@ footer {
     right: 0;
     position: fixed; /* Alterado de absolute para fixed */
     bottom: 0; /* Posiciona o rodapé na parte inferior */
-  /* }
+  }
 
 #instagram{
     font-size: 19px ;
@@ -90,4 +66,3 @@ footer {
 
 }
 
->>>>>>> vicenzo */ */
