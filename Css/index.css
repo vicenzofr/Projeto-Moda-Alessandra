@@ -43,7 +43,7 @@ header{
 
 .imagem1{
     background-color: red;
-    height: 470px;
+    height: 580px;
     width: 100%;
     display: flex; 
     flex-direction: column; 
