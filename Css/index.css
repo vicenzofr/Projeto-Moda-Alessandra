@@ -87,3 +87,174 @@ footer {
 
 }
 
+/* CONTATO */
+
+
+#cont{
+  color: black;
+  margin-top: 150px;
+  margin-left: 200px ;
+  font-size: 70px;
+  font-family: 'Wolfsburg Castle', sans-serif;
+
+}
+
+.quadrado1{
+  height: 350px;
+  width: 450px;
+  border: 2px solid black;
+  background-color: white;
+  margin-top: 80px;
+  margin-left: 1000px ;
+  position: absolute;
+  z-index: 2; /*serve para criar uma ordem*/
+}
+.quadrado2{
+  height: 355px;
+  width: 455px;
+  border: 2px solid black;
+  background-color: transparent;
+  margin-top: 87px;
+  margin-left: 1010px ;
+  position: absolute;
+  z-index: 1;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  /* margin-left: 10px; */
+  margin-top: 40px;
+
+}
+.input-group1 {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 30px; */
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.inputField {
+  width: 130px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(173, 173, 173);
+  margin-bottom: 10px;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+
+#enviar{
+  height:  30px;
+  width: 130px;
+  border: 1px solid black;
+  background-color: transparent;
+  margin-left: 285px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#enviar:hover{
+  background-color: black;
+  color: white;
+}
+
+/* Medidas */
+
+h1{
+  color: black;
+  margin-top: 150px;
+  margin-left: 1200px ;
+  font-size: 70px;
+  font-family: 'Wolfsburg Castle', sans-serif;
+}
+
+/* .quadrado-img{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+} */
+
+
+#foto{
+  height: 500px;
+  width: 400px;
+  margin-left: 300px;
+}
+
+/* portifólio */
+
+
+
+
+/* sobre */
+
+.sobre {
+  /* display: flex;  */
+  align-items: center; 
+}
+.quadrado{
+  height: 370px;
+  width: 350px;
+  background-color: #D9D9D9;
+  margin-left: 500px;
+  /* margin-top: 50px;  */
+  top: 300px;
+  z-index: 1;
+  position: absolute;
+}
+
+h1{
+  color: black;
+  margin-top: 150px;
+  margin-left: 200px ;
+  font-size: 70px;
+  font-family: 'Wolfsburg Castle', sans-serif;
+
+}
+
+#lorem{
+  color:rgb(0, 0, 0);
+  text-align: justify;
+  margin: 10px;
+  padding: 15px;
+  
+}
+
+#imagem1{
+  height: 350px;
+  width: 500px;
+  max-width: 100%;
+  margin-left: 800px;
+  position: absolute; /*sobrepor um obj*/
+  top:140px;
+}
+
+#imagem2{
+  height: 350px;
+  width: 500px;
+  max-width: 100%;
+  margin-left: 800px;
+  position: absolute; /*sobrepor um obj*/
+  top:500px;
+}
+
+
+
