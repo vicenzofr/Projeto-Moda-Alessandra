@@ -66,3 +66,26 @@ footer {
 
 }
 
+
+
+h1{
+  color: black;
+  margin-top: 150px;
+  margin-left: 1200px ;
+  font-size: 70px;
+  font-family: 'Wolfsburg Castle', sans-serif;
+}
+
+/* .quadrado-img{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+} */
+
+
+#foto{
+  height: 500px;
+  width: 400px;
+  margin-left: 300px;
+}
+
