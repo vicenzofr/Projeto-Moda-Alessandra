@@ -58,15 +58,15 @@ header{
 }
 
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
+  height: 60px;
   width: 100%;
   background-color: #000000;
   color: #ffffff;
   text-align: center;
   padding: 20px 0;
 }
-
 
 #instagram{
     font-size: 30px ;
@@ -212,6 +212,11 @@ h1{
 
 /* portifólio */
 
+/* .teste{
+  height: 100px;
+  width: 90%;
+  background-color: red;
+} */
 
 
 
@@ -227,7 +232,7 @@ h1{
   background-color: #D9D9D9;
   margin-left: 500px;
   /* margin-top: 50px;  */
-  top: 300px;
+  top: 390px;
   z-index: 1;
   position: absolute;
 }
@@ -238,7 +243,6 @@ h1{
   margin-left: 200px ;
   font-size: 70px;
   font-family: 'Wolfsburg Castle', sans-serif;
-
 }
 
 #lorem{
@@ -262,6 +266,12 @@ h1{
   max-width: 100%;
   margin-left: 800px;
   position: relative; /*sobrepor um obj*/
+}
+
+.branco{
+  height: 300px;
+  width: 100%;
+  background-color: white;
 }
 
 
