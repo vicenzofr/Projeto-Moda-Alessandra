@@ -9,6 +9,8 @@ use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader
 
 require '../controle/vendor/autoload.php';
+require '../controle/vendor/autoload.php';
+
 
 if(isset($_POST['enviar'])){
 
@@ -30,7 +32,7 @@ try {
  //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
     //Recipients
     $mail->setFrom('avbtecnology@gmail.com', 'Mailer');
-    $mail->addAddress('avbtecnology@gmail.com', 'Teste no AVB');     //email de quem recebe
+    $mail->addAddress('avbtecnology@gmail.com', 'Teste');     //email de quem recebe
     $mail->addReplyTo('avbtecnology@gmail.com', 'Informação');
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Mensagem via Site - avbTESTE ';
