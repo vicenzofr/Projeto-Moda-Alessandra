@@ -1,1 +1,1 @@
-window.confirm('Bem-Vindo a Alessandra Rodrigues')
+//window.confirm('Bem-Vindo a Alessandra Rodrigues')

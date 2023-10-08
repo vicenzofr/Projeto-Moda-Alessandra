@@ -35,7 +35,6 @@ try {
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Mensagem via Site - avbTESTE ';
     
-    $nome = $_POST['nome'];
     $corpo="Mensagem enviada Através do site, segue
     informaçõe abaixo:<br>
     Nome:". $_POST['nome']."<br>
@@ -43,7 +42,7 @@ try {
     Assunto:". $_POST['assunto']."<br>
     Mensagem:". $_POST['msg'];
 
-    $mail->Body    = $corpo;
+    $mail->Body = $corpo;
     
     $mail->send();
     echo 'Email enviado com sucesso!';
