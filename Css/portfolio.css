@@ -10,8 +10,8 @@
   align-items: center;
 }
 /* talvez mudar para porcentagem no código */
-.slider .container{
-  width: 1600px;
+.container{
+  width: 1400px;
   margin: auto;
 }
 
@@ -67,7 +67,7 @@
 
 
 
-@media(max-width:1600px){
+@media(max-width:1400px){
   .container{
     width: 100%;
   }
